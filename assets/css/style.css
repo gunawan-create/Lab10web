@@ -1,0 +1,126 @@
+/* reset sederhana */
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background:#f6f8fb;
+  color:#222;
+  line-height:1.45;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* container utama */
+.container{
+  max-width:1100px;
+  margin:28px auto;
+  padding:20px;
+  background:#fff;
+  border-radius:12px;
+  box-shadow:0 6px 20px rgba(16,24,40,0.08);
+}
+
+/* header / nav */
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  padding-bottom:14px;
+  border-bottom:1px solid #eef2f7;
+  margin-bottom:20px;
+}
+header h1{
+  font-size:20px;
+  color:#0f172a;
+  letter-spacing:0.2px;
+}
+nav a{
+  color:#334155;
+  text-decoration:none;
+  margin-left:12px;
+  padding:8px 12px;
+  border-radius:8px;
+  font-weight:600;
+  font-size:14px;
+}
+nav a:hover{
+  background:#eef2ff;
+  color:#0b67ff;
+}
+
+/* page title & actions */
+h2{
+  font-size:18px;
+  margin:12px 0 18px;
+  color:#0f172a;
+}
+
+/* tables */
+table{
+  width:100%;
+  border-collapse:collapse;
+  background:white;
+  border-radius:8px;
+  overflow:hidden;
+  box-shadow:0 2px 6px rgba(15,23,42,0.04);
+}
+table thead{
+  background:#f1f5f9;
+}
+table th, table td{
+  padding:10px 12px;
+  text-align:left;
+  border-bottom:1px solid #eef2f7;
+  font-size:14px;
+  color:#111827;
+}
+table tr:nth-child(even) td{
+  background:#ffffff;
+}
+table tr:hover td{
+  background:#fbfdff;
+}
+
+/* simple form */
+.form-row{display:flex;gap:12px;flex-wrap:wrap}
+.input, input[type="text"], input[type="email"], select, textarea{
+  padding:10px 12px;
+  border:1px solid #e6edf3;
+  border-radius:8px;
+  font-size:14px;
+  width:100%;
+  background:white;
+}
+.button{
+  display:inline-block;
+  padding:8px 14px;
+  background:#0b67ff;
+  color:white;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:600;
+  border:0;
+  cursor:pointer;
+}
+.button.secondary{
+  background:#64748b;
+}
+
+/* footer */
+footer{
+  margin-top:22px;
+  padding-top:14px;
+  border-top:1px solid #eef2f7;
+  color:#6b7280;
+  font-size:13px;
+  text-align:center;
+}
+
+/* responsive */
+@media (max-width:720px){
+  header{flex-direction:column;align-items:flex-start;gap:8px}
+  nav{display:flex;flex-wrap:wrap}
+  .container{padding:14px;margin:12px}
+  table th, table td{padding:8px}
+}
