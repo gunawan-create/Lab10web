@@ -55,10 +55,9 @@ LALU NYALAKAN MYSQL DAN APACHE
 <img width="993" height="640" alt="Screenshot 2025-11-18 101329" src="https://github.com/user-attachments/assets/eb3a3bfd-33e6-4cf3-b4a6-8aff769e3212" />
 
 SETETALAH ITU BUKA CMD, LALU LOGIN
-### MEMBUAT TABEL
 <img width="1158" height="403" alt="Screenshot 2025-11-25 214328" src="https://github.com/user-attachments/assets/c6156cf2-ced9-4a21-97eb-955ffdc6c6db" />
 
-### MENGISI TABEL
+### MEMBUAT TABEL DAN MENGISI TABEL
 <img width="812" height="506" alt="Screenshot 2025-11-25 214312" src="https://github.com/user-attachments/assets/aae0536b-3e0e-4138-97cb-7dedafb4a160" />
 
 ## HASIL TAMPILAN
